@@ -8,3 +8,7 @@ Edit the code by configuring your coordinates, the IP of the node/gateway connec
 
 ![](https://github.com/ik5xmk/meteo_mc/blob/main/meteo_mc_01.jpg)<br>
 
+Customize the message as you wish, including the detected values ​​that interest you. The information is acquired by [Open Meteo](https://open-meteo.com/)<br>
+
+![](https://github.com/ik5xmk/meteo_mc/blob/main/meteo_mc_02.jpg)<br>
+
