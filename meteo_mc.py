@@ -53,13 +53,14 @@ print(f"Current wind_direction_10m {current_wind_direction_10m}")
 
 # per rete meshcom via seriale
 # root@debian-sviluppo:~# stty -F /dev/ttyACM0 115200 raw -echo
-# root@debian-sviluppo:~# echo ":{222} test" > /dev/ttyACM0
+# root@debian-sviluppo:~# echo "::{222} test" > /dev/ttyACM0
+# vedi https://icssw.org/en/meshcom-kommandos-cl-gw/
 
 # MODIFICARE A PROPRIO USO IL MESSAGGIO
 messaggio = f"Firenze - Temp: {round(current.Variables(0).Value(),1)}C Umid: {current_relative_humidity_2m}% Pioggia: {round(current_precipitation,2)}mm Vento: {round(current_wind_speed_10m)}Km/h"
 #os.system ('stty -F /dev/ttyACM0 115200')
 #os.system ('stty -F /dev/ttyACM0 speed')
-#os.system('echo ":{22251}' + messaggio + '" > /dev/ttyACM0')
+#os.system('echo "::{22251}' + messaggio + '" > /dev/ttyACM0')
 
 # CONFIGURAZIONE
 TARGET_IP = "1.2.3.4"             # Sostituire con l'IP di destinazione
