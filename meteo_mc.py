@@ -57,7 +57,7 @@ print(f"Current wind_direction_10m {current_wind_direction_10m}")
 # vedi https://icssw.org/en/meshcom-kommandos-cl-gw/
 
 # MODIFICARE A PROPRIO USO IL MESSAGGIO
-messaggio = f"Firenze - Temp: {round(current.Variables(0).Value(),1)}C Umid: {current_relative_humidity_2m}% Pioggia: {round(current_precipitation,2)}mm Vento: {round(current_wind_speed_10m)}Km/h"
+messaggio = f"Firenze - Temp: {round(current.Variables(0).Value(),1)}C Umid: {current_relative_humidity_2m}% Pioggia: {current_precipitation:.2f}mm Vento: {round(current_wind_speed_10m)}Km/h"
 #os.system ('stty -F /dev/ttyACM0 115200')
 #os.system ('stty -F /dev/ttyACM0 speed')
 #os.system('echo "::{22251}' + messaggio + '" > /dev/ttyACM0')
