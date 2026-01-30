@@ -16,5 +16,7 @@ Customize the message as you wish, including the detected values ​​that inte
 
 ![](https://github.com/ik5xmk/meteo_mc/blob/main/meteo_mc_pws_01.jpg)<br>
 
-![](https://github.com/ik5xmk/meteo_mc/blob/main/meteo_mc_pws_01.jpg)<br>
+Example of sending weather information over the meshcom network and receiving it on Telegram (see other programs in my repositories).<br>
+
+![](https://github.com/ik5xmk/meteo_mc/blob/main/meteo_mc_pws_02.jpg)<br>
 
