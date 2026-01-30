@@ -12,3 +12,9 @@ Customize the message as you wish, including the detected values ​​that inte
 
 ![](https://github.com/ik5xmk/meteo_mc/blob/main/meteo_mc_02.jpg)<br>
 
+<strong>meteo_mc_pws</strong> is a program that retrieves weather information from the weather.com website using a network of personal weather stations (PWS). Edit the code and enter your API key and station ID (from your account). Specify the QTH for the PWS and the IP address of your LoRa Meshcom card, which will send the information to the network.<br>
+
+![](https://github.com/ik5xmk/meteo_mc/blob/main/meteo_mc_pws_01.jpg)<br>
+
+![](https://github.com/ik5xmk/meteo_mc/blob/main/meteo_mc_pws_01.jpg)<br>
+
